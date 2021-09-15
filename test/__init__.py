@@ -1,1 +1,1 @@
-
+from palindromeChecker import *
