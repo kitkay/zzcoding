@@ -14,6 +14,7 @@ class TestStringPalindrome(unittest.TestCase):
     def test_sanitizeData(self):
         try:
             self.assertTrue(self.sanitizedString)
+            pass
             print("Sanitize Data Passed!")
         except:
             print("Sanitize Data Failed!")
@@ -22,6 +23,7 @@ class TestStringPalindrome(unittest.TestCase):
     def test_sanitizeMatch(self):
         try:
             self.assertEqual(self.sanitizedString, 'amazingnizama')
+            pass
             print("Sanitize \""+self.stringToCheck+"\" to "+self.sanitizedString+" Passed!")
         except:
             print('Sanitized data did not match indicated string')
@@ -32,6 +34,7 @@ class TestStringPalindrome(unittest.TestCase):
         palCheck = Palindrome.isPalindrome(self.sanitizedString)
         try:
             self.assertTrue(palCheck)
+            pass
             print("Palindrome string passed!")
         except:
             print("Palindrome string failed!")
