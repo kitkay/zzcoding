@@ -15,7 +15,7 @@ class Palindrome:
     # Palindrome checker.
     def isPalindrome(data):
         # Check if sanitized string matches its reversed value.
-        return (True if data == data[::-1] else False)
+        return ("true" if data == data[::-1] else "false")
 
 
 #Data input for palindrome checking.
@@ -23,4 +23,4 @@ inputData = "!@#$%^amazinGnizama.<>?()_"
 
 # Test an input for palindrome.
 sanitize = Palindrome.sanitizeData(inputData)
-# print(Palindrome.isPalindrome(sanitize))
+print(Palindrome.isPalindrome(sanitize))
