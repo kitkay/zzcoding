@@ -1,5 +1,4 @@
 [![Python application](https://github.com/kitkay/zzcoding/actions/workflows/python-app-test.yml/badge.svg)](https://github.com/kitkay/zzcoding/actions/workflows/python-app-test.yml)
-
 #Applying TDD(test driven development) on plaindrome scripts.
 #Python 3.9.7, unittest
 
@@ -40,3 +39,8 @@ Testing the scripts:
                                 OR
                 python -m unittest 
                     ~to run all test if any...
+
+    4th: Github Actions:
+
+        Go to Actions tab in github and click 'Create python-app-test.yml'
+        You could re-run jobs or just click 'build' to check the test.
