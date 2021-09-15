@@ -1,3 +1,4 @@
+https://github.com/kitkay/zzcoding/workflows/python-app-test/badge.svg
 #Applying TDD(test driven development) on plaindrome scripts.
 #Python 3.9.7, unittest
 
